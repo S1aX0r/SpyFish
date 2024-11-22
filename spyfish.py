@@ -69,7 +69,7 @@ def main():
                     print("\nAvailable platforms are: Instagram, FaceBook, PayPal, Venmo, or Gmail\n")
                     print("\nWhich would you like to target?\n")
                     choice = input("")
-                    if choice == "instagram" or choice == "facebook" or choice == "paypal" or choice == "venmo" or choice == "gmail":
+                    if choice == "instagram" or choice == "Instagram" or choice == "facebook" or choice == "FaceBook" or choice == "paypal" or choice == "PayPal" or choice == "venmo" or choice == "Venmo" or choice == "gmail" or choice == "Gmail":
                         print("\nCreating phishing template....\n")
                         print("Hi (customer name),\n \nWe detected suspicious activity on your account with (company name). To ensure your account is secure, we need you to sign in and verify your account.\n\nWhat Happened:\n\nWe noticed a login attempt from an unfamiliar location/device. For your protection, we have temporarily locked your account until we can confirm that it was you.\n\nWhat You Need to Do:\n\nPlease sign in to your account and review the recent activity using the link below. If the activity was not authorized by you, please follow the steps to secure your account.\n\nSign In to Your Account:\n\n(phishing link)\n\nIf you did not attempt to log in or if you don’t recognize the recent activity, we strongly recommend changing your password and reviewing your account for any unauthorized changes.\n\nBest regards,\nThe (security group) Team")
     else:
